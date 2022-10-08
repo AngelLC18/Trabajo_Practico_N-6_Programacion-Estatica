@@ -94,3 +94,22 @@
                             font-size: 20px;
                         }
                         /*EndFuentes*/
+                        /*Portada*/
+                        
+                        .titulo {
+                            text-align: center;
+                        }
+                        
+                        .institucion {
+                            text-align: right;
+                        }
+                        
+                        .orco {
+                            display: flex;
+                            justify-content: center;
+                        }
+                        
+                        .portada_datos {
+                            text-align: left;
+                        }
+                        /*endPortada*/
