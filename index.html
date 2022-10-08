@@ -158,6 +158,53 @@
                     </tr>
                 </table>
             </div>
+            <div class="page">
+                <div class="encabezado">
+                    <p>
+                        <p> <strong> Angel Luciano Ciancio </strong>
+                        </p>
+                        <p> <strong>Carrera: Técnico Programador</strong></p>
+                        <div class="logos">
+                            <img class="logo" src="Images/logoinstitucion.png" alt="horda">
+                            <img class="logo" src="Images/logoepet20.png" alt="epet">
+                        </div>
+                </div>
+                <h2>2) Existen dos formas de integrar JS a un HTML:</h2> <br>
+                <p>La primera forma de insertar JavaScript en HTML es directa: <br> Utilizando la etiqueta script, /script que debe envolver todo el código JS que escribas.Se puede agregar el código JS: <br> Entre las etiquetas head <br> Entre las etiquetas
+                    body <br> Dependiendo de dónde agregues el código JavaScript en tu archivo HTML, la carga será diferente. Por lo general se recomienda agregarlo en la sección head para que permanezca separado del contenido de tu archivo HTML. Pero
+                    colocarlo dentro de body puede ayudar a mejorar la velocidad de carga, ya que el contenido del sitio web se cargará más rápido, y solo después de eso se procesará el JavaScript.</p>
+                <p> La segunda forma es: <br> Agregar código JavaScript a un archivo separado , es mejor mantener el código JavaScript en archivos separados, Los archivos JavaScript en caché mejoran el rendimiento general del sitio web al disminuir el tiempo.
+                    Es por esto que la forma más aceptable de incluir JavaScript en HTML es importando archivos externos. Se pueden llamar a estos archivos desde adentro de los documentos HTML. ej: script src="js/ejemplo.js ">/script.
+                    <h2>3) Manejo de variables: </h2>
+                    <p>Las variables se pueden declarar usando var, const, o let. var tiene alcance de función, mientras que const y let tienen alcance de bloque. Las variables const no pueden ser reasignadas, mientras que las variables var y let si pueden
+                        serlo.
+                    </p>
+                    <h2>Tipo de datos</h2>
+                    <ul>
+                        <li>
+                            <h3>Primitivos: Son los valores que no pueden ser cambiados:</h3>
+                            <ul>
+                                <li> <strong>1) Numerico:</strong> Almacena valores enteros o decimales. ej var = edad = 19;</li>
+                                <li> <strong>2) String:</strong> Almacena valores tipo texto. ej= var nombre = Angel;</li>
+                                <li> <strong> 3) Boolean:</strong> Almacena valores verdaderos, falsos y compraciones. ej: var boleano = true;</li>
+                                <li> <strong> 4) Symbol:</strong> Se utilizan por lo general para añadir claves de propiedades únicas a un objeto que no sean iguales a las claves que cualquier otro código pueda añadir al objeto. ej let sym = Symbol()</li>
+                                <li> <strong>5) Undefined:</strong> Almacena un valor que todavia no esta definido, utilizando la n al final de un número entero. Ej: var nombre;</li>
+                                <li><strong>6) BigInt: </strong>Representa números enteros con precisión arbitraria. Ej: const num = 2n ** 53n; 9007199254740992n;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <strong>7) Object:</strong> new object, new array, new map, new set, new weakmap, new weak set, new date: Almacena un conjunto de elementos de cualquier tipo. ej= var persona ["Angel " , "19 "]; </li>
+                        <li><strong>8) Null:</strong> Permite borrar el valor de una variable. ej var nombre = angel; var nombre = null;</li>
+                        <li><strong>9) NaN:</strong> Muestra valores invalidos debido a un error. ej multiplicar el valor de una cadena de texto.</li>
+                        <li><strong>10) Function:</strong> Fragmento de código que puede ser llamado por otro código o por sí mismo, o por una variable que haga referencia a la función. ej: function funcion() {};, const funcion (); </li>
+                    </ul>
+                    <h2>Expresiones Regulares:</h2>
+                    <p>Son patrones que se utilizan para hacer coincidir combinaciones strings. las expresiones regulares también son objetos. se utilizan con los métodos exec() y test() de RegExp, y con match(), matchAll(), replace(), replaceAll() (en-US),
+                        search()
+                        <br> y split() métodos de String. </p>
+                    <br>
+            </div>
 
         </main>
     </div>
