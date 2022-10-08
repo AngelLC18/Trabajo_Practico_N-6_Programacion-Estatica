@@ -168,7 +168,7 @@
                             display: block;
                         }
                         
-                        #captcha #input_val {
+                        #captcha #valor_input {
                             height: 32px;
                             width: 120px;
                             font-size: 12px;
@@ -185,7 +185,7 @@
                             border: 1px solid white;
                         }
                         
-                        #captcha #operation {
+                        #captcha #operacion {
                             font-size: 22px;
                             font-weight: bold;
                             color: rgb(0, 0, 0);
