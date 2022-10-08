@@ -113,3 +113,40 @@
                             text-align: left;
                         }
                         /*endPortada*/
+                        /*Encabezado*/
+                        
+                        .encabezado {
+                            width: 170mm;
+                            height: 60px;
+                            position: relative;
+                        }
+                        
+                        .logos {
+                            position: absolute;
+                            right: 1px;
+                            top: -10px;
+                        }
+                        
+                        .logo {
+                            height: 60px;
+                            width: 60px;
+                        }
+                        /*endEncabezado*/
+                        /*tabla*/
+                        
+                        table,
+                        th,
+                        tr {
+                            border: 1px solid black;
+                            border-collapse: collapse;
+                        }
+                        
+                        th,
+                        td {
+                            padding: 10px;
+                        }
+                        
+                        th {
+                            text-align: left;
+                        }
+                        /*Endtabla*/
