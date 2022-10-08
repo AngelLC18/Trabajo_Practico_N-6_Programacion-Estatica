@@ -150,3 +150,44 @@
                             text-align: left;
                         }
                         /*Endtabla*/
+                        /*captcha*/
+                        
+                        #captcha {
+                            position: absolute;
+                            height: 240px;
+                            width: 200px;
+                            background-color: rgb(255, 255, 255);
+                            left: 50%;
+                            top: 50%;
+                            transform: translate(-50%, -50%);
+                            padding: 20px;
+                            box-shadow: 2px 2px 20px black;
+                        }
+                        
+                        #captcha {
+                            display: block;
+                        }
+                        
+                        #captcha #input_val {
+                            height: 32px;
+                            width: 120px;
+                            font-size: 12px;
+                            font-weight: bold;
+                        }
+                        
+                        #captcha #btn {
+                            height: 40px;
+                            width: 120px;
+                            color: white;
+                            font-size: 20px;
+                            background-color: rgb(67, 183, 212);
+                            cursor: pointer;
+                            border: 1px solid white;
+                        }
+                        
+                        #captcha #operation {
+                            font-size: 22px;
+                            font-weight: bold;
+                            color: rgb(0, 0, 0);
+                        }
+                        /*Endcaptcha*/
