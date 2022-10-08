@@ -132,6 +132,47 @@
                             width: 60px;
                         }
                         /*endEncabezado*/
+                        /*PiePagina*/
+                        
+                        .pie_pagina1 {
+                            text-align: center;
+                            position: relative;
+                            top: 400px;
+                        }
+                        
+                        .pie_pagina2 {
+                            text-align: center;
+                            position: relative;
+                        }
+                        
+                        .pie_pagina3 {
+                            text-align: center;
+                            position: relative;
+                        }
+                        
+                        .pie_pagina4 {
+                            text-align: center;
+                            position: relative;
+                            top: 140px;
+                        }
+                        
+                        .pie_pagina5 {
+                            text-align: center;
+                            position: relative;
+                        }
+                        
+                        .pie_pagina6 {
+                            text-align: center;
+                            position: relative;
+                            top: 100px;
+                        }
+                        
+                        .pie_pagina7 {
+                            text-align: center;
+                            position: relative;
+                            top: 120px;
+                        }
+                        /*EndPiePagina*/
                         /*tabla*/
                         
                         table,
